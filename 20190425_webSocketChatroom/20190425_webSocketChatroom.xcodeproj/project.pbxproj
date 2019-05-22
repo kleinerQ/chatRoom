@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC49EDF72271B3710059F05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49EDF62271B3710059F05D /* AppDelegate.swift */; };
+		AC49EDF92271B3710059F05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49EDF82271B3710059F05D /* ViewController.swift */; };
+		AC49EDFC2271B3710059F05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49EDFA2271B3710059F05D /* Main.storyboard */; };
+		AC49EDFF2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC49EDFD2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodeld */; };
+		AC49EE012271B3720059F05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC49EE002271B3720059F05D /* Assets.xcassets */; };
+		AC49EE042271B3720059F05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49EE022271B3720059F05D /* LaunchScreen.storyboard */; };
+		AC49EE112272DD730059F05D /* ChatMessageBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49EE0F2272DD720059F05D /* ChatMessageBoardTableViewCell.swift */; };
+		AC49EE122272DD730059F05D /* ChatMessageBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC49EE102272DD730059F05D /* ChatMessageBoardTableViewCell.xib */; };
+		AC49EE152272DF890059F05D /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49EE132272DF890059F05D /* ChatRoomViewController.swift */; };
+		AC49EE162272DF890059F05D /* ChatRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC49EE142272DF890059F05D /* ChatRoomViewController.xib */; };
+		AC98E16A227C196100261E7A /* ChatDataManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E169227C196100261E7A /* ChatDataManagement.swift */; };
+		AC98E16E227C3E4200261E7A /* MessageBlackBoardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC98E16D227C3E4200261E7A /* MessageBlackBoardHeaderView.swift */; };
+		AC98E172227C3ED600261E7A /* MessageBlackBoardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC98E171227C3ED600261E7A /* MessageBlackBoardHeaderView.xib */; };
+		AC9A5AF12293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A5AEF2293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.swift */; };
+		AC9A5AF22293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9A5AF02293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC49EDF32271B3710059F05D /* 20190425_webSocketChatroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20190425_webSocketChatroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC49EDF62271B3710059F05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC49EDF82271B3710059F05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC49EDFB2271B3710059F05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC49EDFE2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0190425_webSocketChatroom.xcdatamodel; sourceTree = "<group>"; };
+		AC49EE002271B3720059F05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC49EE032271B3720059F05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC49EE052271B3720059F05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC49EE0F2272DD720059F05D /* ChatMessageBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageBoardTableViewCell.swift; sourceTree = "<group>"; };
+		AC49EE102272DD730059F05D /* ChatMessageBoardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatMessageBoardTableViewCell.xib; sourceTree = "<group>"; };
+		AC49EE132272DF890059F05D /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		AC49EE142272DF890059F05D /* ChatRoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomViewController.xib; sourceTree = "<group>"; };
+		AC98E169227C196100261E7A /* ChatDataManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDataManagement.swift; sourceTree = "<group>"; };
+		AC98E16D227C3E4200261E7A /* MessageBlackBoardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBlackBoardHeaderView.swift; sourceTree = "<group>"; };
+		AC98E171227C3ED600261E7A /* MessageBlackBoardHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageBlackBoardHeaderView.xib; sourceTree = "<group>"; };
+		AC9A5AEF2293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageBoardSentTableViewCell.swift; sourceTree = "<group>"; };
+		AC9A5AF02293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatMessageBoardSentTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC49EDF02271B3710059F05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC49EDEA2271B3710059F05D = {
+			isa = PBXGroup;
+			children = (
+				AC49EDF52271B3710059F05D /* 20190425_webSocketChatroom */,
+				AC49EDF42271B3710059F05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC49EDF42271B3710059F05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC49EDF32271B3710059F05D /* 20190425_webSocketChatroom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC49EDF52271B3710059F05D /* 20190425_webSocketChatroom */ = {
+			isa = PBXGroup;
+			children = (
+				AC49EDF62271B3710059F05D /* AppDelegate.swift */,
+				AC49EDF82271B3710059F05D /* ViewController.swift */,
+				AC49EE132272DF890059F05D /* ChatRoomViewController.swift */,
+				AC49EE142272DF890059F05D /* ChatRoomViewController.xib */,
+				AC98E16D227C3E4200261E7A /* MessageBlackBoardHeaderView.swift */,
+				AC98E171227C3ED600261E7A /* MessageBlackBoardHeaderView.xib */,
+				AC49EDFA2271B3710059F05D /* Main.storyboard */,
+				AC49EE0F2272DD720059F05D /* ChatMessageBoardTableViewCell.swift */,
+				AC49EE102272DD730059F05D /* ChatMessageBoardTableViewCell.xib */,
+				AC9A5AEF2293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.swift */,
+				AC9A5AF02293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.xib */,
+				AC98E169227C196100261E7A /* ChatDataManagement.swift */,
+				AC49EE002271B3720059F05D /* Assets.xcassets */,
+				AC49EE022271B3720059F05D /* LaunchScreen.storyboard */,
+				AC49EE052271B3720059F05D /* Info.plist */,
+				AC49EDFD2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodeld */,
+			);
+			path = 20190425_webSocketChatroom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC49EDF22271B3710059F05D /* 20190425_webSocketChatroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC49EE082271B3720059F05D /* Build configuration list for PBXNativeTarget "20190425_webSocketChatroom" */;
+			buildPhases = (
+				AC49EDEF2271B3710059F05D /* Sources */,
+				AC49EDF02271B3710059F05D /* Frameworks */,
+				AC49EDF12271B3710059F05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 20190425_webSocketChatroom;
+			productName = 20190425_webSocketChatroom;
+			productReference = AC49EDF32271B3710059F05D /* 20190425_webSocketChatroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC49EDEB2271B3710059F05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Yen;
+				TargetAttributes = {
+					AC49EDF22271B3710059F05D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = AC49EDEE2271B3710059F05D /* Build configuration list for PBXProject "20190425_webSocketChatroom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC49EDEA2271B3710059F05D;
+			productRefGroup = AC49EDF42271B3710059F05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC49EDF22271B3710059F05D /* 20190425_webSocketChatroom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC49EDF12271B3710059F05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9A5AF22293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.xib in Resources */,
+				AC49EE042271B3720059F05D /* LaunchScreen.storyboard in Resources */,
+				AC49EE012271B3720059F05D /* Assets.xcassets in Resources */,
+				AC98E172227C3ED600261E7A /* MessageBlackBoardHeaderView.xib in Resources */,
+				AC49EDFC2271B3710059F05D /* Main.storyboard in Resources */,
+				AC49EE122272DD730059F05D /* ChatMessageBoardTableViewCell.xib in Resources */,
+				AC49EE162272DF890059F05D /* ChatRoomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC49EDEF2271B3710059F05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC49EDFF2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodeld in Sources */,
+				AC49EDF92271B3710059F05D /* ViewController.swift in Sources */,
+				AC98E16A227C196100261E7A /* ChatDataManagement.swift in Sources */,
+				AC49EDF72271B3710059F05D /* AppDelegate.swift in Sources */,
+				AC9A5AF12293E8B1004D7B32 /* ChatMessageBoardSentTableViewCell.swift in Sources */,
+				AC49EE112272DD730059F05D /* ChatMessageBoardTableViewCell.swift in Sources */,
+				AC49EE152272DF890059F05D /* ChatRoomViewController.swift in Sources */,
+				AC98E16E227C3E4200261E7A /* MessageBlackBoardHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC49EDFA2271B3710059F05D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC49EDFB2271B3710059F05D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC49EE022271B3720059F05D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC49EE032271B3720059F05D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC49EE062271B3720059F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC49EE072271B3720059F05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC49EE092271B3720059F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH4AS5QT2C;
+				INFOPLIST_FILE = 20190425_webSocketChatroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iii.-0190425-webSocketChatroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC49EE0A2271B3720059F05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH4AS5QT2C;
+				INFOPLIST_FILE = 20190425_webSocketChatroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iii.-0190425-webSocketChatroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC49EDEE2271B3710059F05D /* Build configuration list for PBXProject "20190425_webSocketChatroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC49EE062271B3720059F05D /* Debug */,
+				AC49EE072271B3720059F05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC49EE082271B3720059F05D /* Build configuration list for PBXNativeTarget "20190425_webSocketChatroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC49EE092271B3720059F05D /* Debug */,
+				AC49EE0A2271B3720059F05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC49EDFD2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC49EDFE2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodel */,
+			);
+			currentVersion = AC49EDFE2271B3710059F05D /* _0190425_webSocketChatroom.xcdatamodel */;
+			path = _0190425_webSocketChatroom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC49EDEB2271B3710059F05D /* Project object */;
+}
