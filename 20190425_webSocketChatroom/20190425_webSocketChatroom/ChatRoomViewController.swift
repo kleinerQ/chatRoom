@@ -101,8 +101,6 @@ class ChatRoomViewController: UIViewController {
     @IBAction func sendMessageButton(_ sender: UIButton) {
         self.sentMode = .SEND
         let inputString = self.messageInputBoxView.text ?? ""
-        let aa = self.obtainCharacterBytesCount(str: inputString)
-        print(aa)
         //exclude ""
         if self.stringSpaceCheck(str: inputString){
 
